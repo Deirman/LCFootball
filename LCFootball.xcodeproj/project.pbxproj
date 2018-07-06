@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		533DC8A72416AC72948C71A8 /* Pods_LCFootball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D845F3893776BE3167BE56 /* Pods_LCFootball.framework */; };
 		A8624E2020EEEE5800A1FC45 /* LCRankingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8624E1E20EEEE5800A1FC45 /* LCRankingCell.m */; };
 		A8624E2120EEEE5800A1FC45 /* LCRankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8624E1F20EEEE5800A1FC45 /* LCRankingCell.xib */; };
@@ -16,6 +17,7 @@
 		A8A67C8720EE43AD0026CF25 /* LCWorldCupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C8520EE43AD0026CF25 /* LCWorldCupCell.m */; };
 		A8A67C8820EE43AD0026CF25 /* LCWorldCupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A67C8620EE43AD0026CF25 /* LCWorldCupCell.xib */; };
 		A8D095F320EDD87C00DDC673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D095F220EDD87C00DDC673 /* AppDelegate.m */; };
+
 		A8D095F920EDD87C00DDC673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D095F720EDD87C00DDC673 /* Main.storyboard */; };
 		A8D095FB20EDD87E00DDC673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D095FA20EDD87E00DDC673 /* Assets.xcassets */; };
 		A8D095FE20EDD87E00DDC673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D095FC20EDD87E00DDC673 /* LaunchScreen.storyboard */; };
@@ -29,6 +31,7 @@
 		A8D0963220EDE2A500DDC673 /* LCRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963120EDE2A500DDC673 /* LCRankingViewController.m */; };
 		A8D0963520EDE2E300DDC673 /* LCShooterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963420EDE2E300DDC673 /* LCShooterListViewController.m */; };
 		A8D0963820EDE31800DDC673 /* LCNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963720EDE31800DDC673 /* LCNewsViewController.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533DC8A72416AC72948C71A8 /* Pods_LCFootball.framework in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +372,7 @@
 				A8D095EF20EDD87C00DDC673 /* Products */,
 				A726867E627F44752A74A79C /* Pods */,
 				3A3CBEA9E3C6EA23940CB71E /* Frameworks */,
+
 			);
 			sourceTree = "<group>";
 		};
@@ -441,6 +446,7 @@
 				A8D095EB20EDD87C00DDC673 /* Frameworks */,
 				A8D095EC20EDD87C00DDC673 /* Resources */,
 				7B3822ABA48CB6593302633D /* [CP] Embed Pods Frameworks */,
+
 			);
 			buildRules = (
 			);
@@ -539,6 +545,7 @@
 				A8A67C8820EE43AD0026CF25 /* LCWorldCupCell.xib in Resources */,
 				A8D095F920EDD87C00DDC673 /* Main.storyboard in Resources */,
 				A8624E2120EEEE5800A1FC45 /* LCRankingCell.xib in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,6 +815,7 @@
 				GCC_PREFIX_HEADER = /Users/deirman/Desktop/LCFootball/LCFootball/LCFootball.pch;
 				INFOPLIST_FILE = LCFootball/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

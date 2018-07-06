@@ -1,0 +1,6 @@
+framework module Pods_LCFootball {
+  umbrella header "Pods-LCFootball-umbrella.h"
+
+  export *
+  module * { export * }
+}

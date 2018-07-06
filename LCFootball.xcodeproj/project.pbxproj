@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533DC8A72416AC72948C71A8 /* Pods_LCFootball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D845F3893776BE3167BE56 /* Pods_LCFootball.framework */; };
+		A8624E2020EEEE5800A1FC45 /* LCRankingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8624E1E20EEEE5800A1FC45 /* LCRankingCell.m */; };
+		A8624E2120EEEE5800A1FC45 /* LCRankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8624E1F20EEEE5800A1FC45 /* LCRankingCell.xib */; };
+		A8A67C6320EE296C0026CF25 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C6220EE296C0026CF25 /* UIColor+HexColor.m */; };
+		A8A67C8020EE36BB0026CF25 /* OrderModeTabArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C7F20EE36BB0026CF25 /* OrderModeTabArrowView.m */; };
+		A8A67C8320EE385C0026CF25 /* OrderModeTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C8120EE385C0026CF25 /* OrderModeTabView.m */; };
+		A8A67C8720EE43AD0026CF25 /* LCWorldCupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C8520EE43AD0026CF25 /* LCWorldCupCell.m */; };
+		A8A67C8820EE43AD0026CF25 /* LCWorldCupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A67C8620EE43AD0026CF25 /* LCWorldCupCell.xib */; };
+		A8D095F320EDD87C00DDC673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D095F220EDD87C00DDC673 /* AppDelegate.m */; };
+		A8D095F920EDD87C00DDC673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D095F720EDD87C00DDC673 /* Main.storyboard */; };
+		A8D095FB20EDD87E00DDC673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D095FA20EDD87E00DDC673 /* Assets.xcassets */; };
+		A8D095FE20EDD87E00DDC673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D095FC20EDD87E00DDC673 /* LaunchScreen.storyboard */; };
+		A8D0960120EDD87E00DDC673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0960020EDD87E00DDC673 /* main.m */; };
+		A8D0960B20EDD87F00DDC673 /* LCFootballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0960A20EDD87F00DDC673 /* LCFootballTests.m */; };
+		A8D0961620EDD87F00DDC673 /* LCFootballUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0961520EDD87F00DDC673 /* LCFootballUITests.m */; };
+		A8D0962620EDE1D000DDC673 /* LCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0962520EDE1D000DDC673 /* LCBaseViewController.m */; };
+		A8D0962B20EDE20400DDC673 /* LCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0962920EDE20400DDC673 /* LCTabBarController.m */; };
+		A8D0962C20EDE20400DDC673 /* LCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0962A20EDE20400DDC673 /* LCNavigationController.m */; };
+		A8D0962F20EDE26200DDC673 /* LCWorldCupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0962E20EDE26200DDC673 /* LCWorldCupViewController.m */; };
+		A8D0963220EDE2A500DDC673 /* LCRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963120EDE2A500DDC673 /* LCRankingViewController.m */; };
+		A8D0963520EDE2E300DDC673 /* LCShooterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963420EDE2E300DDC673 /* LCShooterListViewController.m */; };
+		A8D0963820EDE31800DDC673 /* LCNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963720EDE31800DDC673 /* LCNewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D0960720EDD87F00DDC673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D095E620EDD87C00DDC673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D095ED20EDD87C00DDC673;
+			remoteInfo = LCFootball;
+		};
+		A8D0961220EDD87F00DDC673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D095E620EDD87C00DDC673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D095ED20EDD87C00DDC673;
+			remoteInfo = LCFootball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D845F3893776BE3167BE56 /* Pods_LCFootball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCFootball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		040082F2E9BC1F882B933CF1 /* Pods-LCFootball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCFootball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCFootball/Pods-LCFootball.debug.xcconfig"; sourceTree = "<group>"; };
+		A8624E1D20EEEE5800A1FC45 /* LCRankingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRankingCell.h; sourceTree = "<group>"; };
+		A8624E1E20EEEE5800A1FC45 /* LCRankingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRankingCell.m; sourceTree = "<group>"; };
+		A8624E1F20EEEE5800A1FC45 /* LCRankingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCRankingCell.xib; sourceTree = "<group>"; };
+		A8A67C6120EE296C0026CF25 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		A8A67C6220EE296C0026CF25 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		A8A67C6420EE29910026CF25 /* LCFootball.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCFootball.pch; sourceTree = "<group>"; };
+		A8A67C6620EE2ACE0026CF25 /* ScreenMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMacro.h; sourceTree = "<group>"; };
+		A8A67C7E20EE36BB0026CF25 /* OrderModeTabArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModeTabArrowView.h; sourceTree = "<group>"; };
+		A8A67C7F20EE36BB0026CF25 /* OrderModeTabArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModeTabArrowView.m; sourceTree = "<group>"; };
+		A8A67C8120EE385C0026CF25 /* OrderModeTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModeTabView.m; sourceTree = "<group>"; };
+		A8A67C8220EE385C0026CF25 /* OrderModeTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModeTabView.h; sourceTree = "<group>"; };
+		A8A67C8420EE43AD0026CF25 /* LCWorldCupCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCWorldCupCell.h; sourceTree = "<group>"; };
+		A8A67C8520EE43AD0026CF25 /* LCWorldCupCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCWorldCupCell.m; sourceTree = "<group>"; };
+		A8A67C8620EE43AD0026CF25 /* LCWorldCupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCWorldCupCell.xib; sourceTree = "<group>"; };
+		A8D095EE20EDD87C00DDC673 /* LCFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D095F120EDD87C00DDC673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8D095F220EDD87C00DDC673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8D095F820EDD87C00DDC673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8D095FA20EDD87E00DDC673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D095FD20EDD87E00DDC673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8D095FF20EDD87E00DDC673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D0960020EDD87E00DDC673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8D0960620EDD87F00DDC673 /* LCFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D0960A20EDD87F00DDC673 /* LCFootballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCFootballTests.m; sourceTree = "<group>"; };
+		A8D0960C20EDD87F00DDC673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D0961120EDD87F00DDC673 /* LCFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D0961520EDD87F00DDC673 /* LCFootballUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCFootballUITests.m; sourceTree = "<group>"; };
+		A8D0961720EDD87F00DDC673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D0962420EDE1D000DDC673 /* LCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBaseViewController.h; sourceTree = "<group>"; };
+		A8D0962520EDE1D000DDC673 /* LCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCBaseViewController.m; sourceTree = "<group>"; };
+		A8D0962720EDE20400DDC673 /* LCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNavigationController.h; sourceTree = "<group>"; };
+		A8D0962820EDE20400DDC673 /* LCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabBarController.h; sourceTree = "<group>"; };
+		A8D0962920EDE20400DDC673 /* LCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabBarController.m; sourceTree = "<group>"; };
+		A8D0962A20EDE20400DDC673 /* LCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNavigationController.m; sourceTree = "<group>"; };
+		A8D0962D20EDE26200DDC673 /* LCWorldCupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCWorldCupViewController.h; sourceTree = "<group>"; };
+		A8D0962E20EDE26200DDC673 /* LCWorldCupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCWorldCupViewController.m; sourceTree = "<group>"; };
+		A8D0963020EDE2A500DDC673 /* LCRankingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRankingViewController.h; sourceTree = "<group>"; };
+		A8D0963120EDE2A500DDC673 /* LCRankingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRankingViewController.m; sourceTree = "<group>"; };
+		A8D0963320EDE2E300DDC673 /* LCShooterListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCShooterListViewController.h; sourceTree = "<group>"; };
+		A8D0963420EDE2E300DDC673 /* LCShooterListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCShooterListViewController.m; sourceTree = "<group>"; };
+		A8D0963620EDE31800DDC673 /* LCNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCNewsViewController.h; sourceTree = "<group>"; };
+		A8D0963720EDE31800DDC673 /* LCNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCNewsViewController.m; sourceTree = "<group>"; };
+		AFE6C81D985A6DEDC3E45A32 /* Pods-LCFootball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCFootball.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCFootball/Pods-LCFootball.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D095EB20EDD87C00DDC673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533DC8A72416AC72948C71A8 /* Pods_LCFootball.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0960320EDD87F00DDC673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0960E20EDD87F00DDC673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3CBEA9E3C6EA23940CB71E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01D845F3893776BE3167BE56 /* Pods_LCFootball.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A726867E627F44752A74A79C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				040082F2E9BC1F882B933CF1 /* Pods-LCFootball.debug.xcconfig */,
+				AFE6C81D985A6DEDC3E45A32 /* Pods-LCFootball.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8A67C6020EE295E0026CF25 /* SystemCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C6120EE296C0026CF25 /* UIColor+HexColor.h */,
+				A8A67C6220EE296C0026CF25 /* UIColor+HexColor.m */,
+			);
+			path = SystemCategory;
+			sourceTree = "<group>";
+		};
+		A8A67C6520EE2A940026CF25 /* SystemConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C6620EE2ACE0026CF25 /* ScreenMacro.h */,
+			);
+			path = SystemConfig;
+			sourceTree = "<group>";
+		};
+		A8A67C6720EE2AEC0026CF25 /* CouponModule */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C7D20EE2CD70026CF25 /* View */,
+				A8A67C7C20EE2CC30026CF25 /* ViewController */,
+			);
+			path = CouponModule;
+			sourceTree = "<group>";
+		};
+		A8A67C6820EE2B6F0026CF25 /* LCWorldCup */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C7B20EE2CAB0026CF25 /* Service */,
+				A8A67C7A20EE2CA00026CF25 /* Model */,
+				A8A67C7920EE2C920026CF25 /* View */,
+				A8A67C7820EE2C870026CF25 /* ViewController */,
+			);
+			path = LCWorldCup;
+			sourceTree = "<group>";
+		};
+		A8A67C6920EE2B800026CF25 /* LCRanking */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C7720EE2C760026CF25 /* Service */,
+				A8A67C7620EE2C6F0026CF25 /* Model */,
+				A8A67C7520EE2C630026CF25 /* View */,
+				A8A67C7420EE2C5C0026CF25 /* ViewController */,
+			);
+			path = LCRanking;
+			sourceTree = "<group>";
+		};
+		A8A67C6A20EE2BBE0026CF25 /* LCShooterList */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C7320EE2C520026CF25 /* Service */,
+				A8A67C7220EE2C4B0026CF25 /* Model */,
+				A8A67C7120EE2C430026CF25 /* View */,
+				A8A67C7020EE2C310026CF25 /* ViewController */,
+			);
+			path = LCShooterList;
+			sourceTree = "<group>";
+		};
+		A8A67C6B20EE2BCA0026CF25 /* LCNews */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C6F20EE2C260026CF25 /* Service */,
+				A8A67C6E20EE2C1B0026CF25 /* Model */,
+				A8A67C6D20EE2C060026CF25 /* View */,
+				A8A67C6C20EE2BE60026CF25 /* ViewController */,
+			);
+			path = LCNews;
+			sourceTree = "<group>";
+		};
+		A8A67C6C20EE2BE60026CF25 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0963620EDE31800DDC673 /* LCNewsViewController.h */,
+				A8D0963720EDE31800DDC673 /* LCNewsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8A67C6D20EE2C060026CF25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8A67C6E20EE2C1B0026CF25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8A67C6F20EE2C260026CF25 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A8A67C7020EE2C310026CF25 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0963320EDE2E300DDC673 /* LCShooterListViewController.h */,
+				A8D0963420EDE2E300DDC673 /* LCShooterListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8A67C7120EE2C430026CF25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8A67C7220EE2C4B0026CF25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8A67C7320EE2C520026CF25 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A8A67C7420EE2C5C0026CF25 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0963020EDE2A500DDC673 /* LCRankingViewController.h */,
+				A8D0963120EDE2A500DDC673 /* LCRankingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8A67C7520EE2C630026CF25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8624E1D20EEEE5800A1FC45 /* LCRankingCell.h */,
+				A8624E1E20EEEE5800A1FC45 /* LCRankingCell.m */,
+				A8624E1F20EEEE5800A1FC45 /* LCRankingCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8A67C7620EE2C6F0026CF25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8A67C7720EE2C760026CF25 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A8A67C7820EE2C870026CF25 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0962D20EDE26200DDC673 /* LCWorldCupViewController.h */,
+				A8D0962E20EDE26200DDC673 /* LCWorldCupViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8A67C7920EE2C920026CF25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C8420EE43AD0026CF25 /* LCWorldCupCell.h */,
+				A8A67C8520EE43AD0026CF25 /* LCWorldCupCell.m */,
+				A8A67C8620EE43AD0026CF25 /* LCWorldCupCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8A67C7A20EE2CA00026CF25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8A67C7B20EE2CAB0026CF25 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A8A67C7C20EE2CC30026CF25 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0962420EDE1D000DDC673 /* LCBaseViewController.h */,
+				A8D0962520EDE1D000DDC673 /* LCBaseViewController.m */,
+				A8D0962720EDE20400DDC673 /* LCNavigationController.h */,
+				A8D0962A20EDE20400DDC673 /* LCNavigationController.m */,
+				A8D0962820EDE20400DDC673 /* LCTabBarController.h */,
+				A8D0962920EDE20400DDC673 /* LCTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A8A67C7D20EE2CD70026CF25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C8220EE385C0026CF25 /* OrderModeTabView.h */,
+				A8A67C8120EE385C0026CF25 /* OrderModeTabView.m */,
+				A8A67C7E20EE36BB0026CF25 /* OrderModeTabArrowView.h */,
+				A8A67C7F20EE36BB0026CF25 /* OrderModeTabArrowView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8D095E520EDD87C00DDC673 = {
+			isa = PBXGroup;
+			children = (
+				A8D095F020EDD87C00DDC673 /* LCFootball */,
+				A8D0960920EDD87F00DDC673 /* LCFootballTests */,
+				A8D0961420EDD87F00DDC673 /* LCFootballUITests */,
+				A8D095EF20EDD87C00DDC673 /* Products */,
+				A726867E627F44752A74A79C /* Pods */,
+				3A3CBEA9E3C6EA23940CB71E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D095EF20EDD87C00DDC673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D095EE20EDD87C00DDC673 /* LCFootball.app */,
+				A8D0960620EDD87F00DDC673 /* LCFootballTests.xctest */,
+				A8D0961120EDD87F00DDC673 /* LCFootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D095F020EDD87C00DDC673 /* LCFootball */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C6520EE2A940026CF25 /* SystemConfig */,
+				A8A67C6020EE295E0026CF25 /* SystemCategory */,
+				A8D0962320EDE14F00DDC673 /* Module */,
+				A8D095F720EDD87C00DDC673 /* Main.storyboard */,
+				A8A67C6420EE29910026CF25 /* LCFootball.pch */,
+				A8D095F120EDD87C00DDC673 /* AppDelegate.h */,
+				A8D095F220EDD87C00DDC673 /* AppDelegate.m */,
+				A8D095FA20EDD87E00DDC673 /* Assets.xcassets */,
+				A8D095FC20EDD87E00DDC673 /* LaunchScreen.storyboard */,
+				A8D095FF20EDD87E00DDC673 /* Info.plist */,
+				A8D0960020EDD87E00DDC673 /* main.m */,
+			);
+			path = LCFootball;
+			sourceTree = "<group>";
+		};
+		A8D0960920EDD87F00DDC673 /* LCFootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0960A20EDD87F00DDC673 /* LCFootballTests.m */,
+				A8D0960C20EDD87F00DDC673 /* Info.plist */,
+			);
+			path = LCFootballTests;
+			sourceTree = "<group>";
+		};
+		A8D0961420EDD87F00DDC673 /* LCFootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D0961520EDD87F00DDC673 /* LCFootballUITests.m */,
+				A8D0961720EDD87F00DDC673 /* Info.plist */,
+			);
+			path = LCFootballUITests;
+			sourceTree = "<group>";
+		};
+		A8D0962320EDE14F00DDC673 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A8A67C6B20EE2BCA0026CF25 /* LCNews */,
+				A8A67C6A20EE2BBE0026CF25 /* LCShooterList */,
+				A8A67C6920EE2B800026CF25 /* LCRanking */,
+				A8A67C6820EE2B6F0026CF25 /* LCWorldCup */,
+				A8A67C6720EE2AEC0026CF25 /* CouponModule */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D095ED20EDD87C00DDC673 /* LCFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D0961A20EDD87F00DDC673 /* Build configuration list for PBXNativeTarget "LCFootball" */;
+			buildPhases = (
+				9C8EB352B7216D939D3CFB0F /* [CP] Check Pods Manifest.lock */,
+				A8D095EA20EDD87C00DDC673 /* Sources */,
+				A8D095EB20EDD87C00DDC673 /* Frameworks */,
+				A8D095EC20EDD87C00DDC673 /* Resources */,
+				7B3822ABA48CB6593302633D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCFootball;
+			productName = LCFootball;
+			productReference = A8D095EE20EDD87C00DDC673 /* LCFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D0960520EDD87F00DDC673 /* LCFootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D0961D20EDD87F00DDC673 /* Build configuration list for PBXNativeTarget "LCFootballTests" */;
+			buildPhases = (
+				A8D0960220EDD87F00DDC673 /* Sources */,
+				A8D0960320EDD87F00DDC673 /* Frameworks */,
+				A8D0960420EDD87F00DDC673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D0960820EDD87F00DDC673 /* PBXTargetDependency */,
+			);
+			name = LCFootballTests;
+			productName = LCFootballTests;
+			productReference = A8D0960620EDD87F00DDC673 /* LCFootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8D0961020EDD87F00DDC673 /* LCFootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D0962020EDD87F00DDC673 /* Build configuration list for PBXNativeTarget "LCFootballUITests" */;
+			buildPhases = (
+				A8D0960D20EDD87F00DDC673 /* Sources */,
+				A8D0960E20EDD87F00DDC673 /* Frameworks */,
+				A8D0960F20EDD87F00DDC673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D0961320EDD87F00DDC673 /* PBXTargetDependency */,
+			);
+			name = LCFootballUITests;
+			productName = LCFootballUITests;
+			productReference = A8D0961120EDD87F00DDC673 /* LCFootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D095E620EDD87C00DDC673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Deirman;
+				TargetAttributes = {
+					A8D095ED20EDD87C00DDC673 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					A8D0960520EDD87F00DDC673 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A8D095ED20EDD87C00DDC673;
+					};
+					A8D0961020EDD87F00DDC673 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A8D095ED20EDD87C00DDC673;
+					};
+				};
+			};
+			buildConfigurationList = A8D095E920EDD87C00DDC673 /* Build configuration list for PBXProject "LCFootball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D095E520EDD87C00DDC673;
+			productRefGroup = A8D095EF20EDD87C00DDC673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D095ED20EDD87C00DDC673 /* LCFootball */,
+				A8D0960520EDD87F00DDC673 /* LCFootballTests */,
+				A8D0961020EDD87F00DDC673 /* LCFootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D095EC20EDD87C00DDC673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D095FE20EDD87E00DDC673 /* LaunchScreen.storyboard in Resources */,
+				A8D095FB20EDD87E00DDC673 /* Assets.xcassets in Resources */,
+				A8A67C8820EE43AD0026CF25 /* LCWorldCupCell.xib in Resources */,
+				A8D095F920EDD87C00DDC673 /* Main.storyboard in Resources */,
+				A8624E2120EEEE5800A1FC45 /* LCRankingCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0960420EDD87F00DDC673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0960F20EDD87F00DDC673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B3822ABA48CB6593302633D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LCFootball/Pods-LCFootball-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCFootball/Pods-LCFootball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8EB352B7216D939D3CFB0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCFootball-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D095EA20EDD87C00DDC673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D0962C20EDE20400DDC673 /* LCNavigationController.m in Sources */,
+				A8D0963820EDE31800DDC673 /* LCNewsViewController.m in Sources */,
+				A8D0962B20EDE20400DDC673 /* LCTabBarController.m in Sources */,
+				A8A67C8720EE43AD0026CF25 /* LCWorldCupCell.m in Sources */,
+				A8D0962F20EDE26200DDC673 /* LCWorldCupViewController.m in Sources */,
+				A8D0963220EDE2A500DDC673 /* LCRankingViewController.m in Sources */,
+				A8A67C6320EE296C0026CF25 /* UIColor+HexColor.m in Sources */,
+				A8624E2020EEEE5800A1FC45 /* LCRankingCell.m in Sources */,
+				A8A67C8020EE36BB0026CF25 /* OrderModeTabArrowView.m in Sources */,
+				A8D0960120EDD87E00DDC673 /* main.m in Sources */,
+				A8A67C8320EE385C0026CF25 /* OrderModeTabView.m in Sources */,
+				A8D0963520EDE2E300DDC673 /* LCShooterListViewController.m in Sources */,
+				A8D0962620EDE1D000DDC673 /* LCBaseViewController.m in Sources */,
+				A8D095F320EDD87C00DDC673 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0960220EDD87F00DDC673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D0960B20EDD87F00DDC673 /* LCFootballTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0960D20EDD87F00DDC673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D0961620EDD87F00DDC673 /* LCFootballUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D0960820EDD87F00DDC673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D095ED20EDD87C00DDC673 /* LCFootball */;
+			targetProxy = A8D0960720EDD87F00DDC673 /* PBXContainerItemProxy */;
+		};
+		A8D0961320EDD87F00DDC673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D095ED20EDD87C00DDC673 /* LCFootball */;
+			targetProxy = A8D0961220EDD87F00DDC673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8D095F720EDD87C00DDC673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D095F820EDD87C00DDC673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8D095FC20EDD87E00DDC673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D095FD20EDD87E00DDC673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D0961820EDD87F00DDC673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8D0961920EDD87F00DDC673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D0961B20EDD87F00DDC673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040082F2E9BC1F882B933CF1 /* Pods-LCFootball.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAZ4HY68QU;
+				GCC_PREFIX_HEADER = /Users/deirman/Desktop/LCFootball/LCFootball/LCFootball.pch;
+				INFOPLIST_FILE = LCFootball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8D0961C20EDD87F00DDC673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE6C81D985A6DEDC3E45A32 /* Pods-LCFootball.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAZ4HY68QU;
+				GCC_PREFIX_HEADER = /Users/deirman/Desktop/LCFootball/LCFootball/LCFootball.pch;
+				INFOPLIST_FILE = LCFootball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8D0961E20EDD87F00DDC673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCFootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCFootball.app/LCFootball";
+			};
+			name = Debug;
+		};
+		A8D0961F20EDD87F00DDC673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCFootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCFootball.app/LCFootball";
+			};
+			name = Release;
+		};
+		A8D0962120EDD87F00DDC673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCFootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LCFootball;
+			};
+			name = Debug;
+		};
+		A8D0962220EDD87F00DDC673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCFootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LCFootball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D095E920EDD87C00DDC673 /* Build configuration list for PBXProject "LCFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D0961820EDD87F00DDC673 /* Debug */,
+				A8D0961920EDD87F00DDC673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D0961A20EDD87F00DDC673 /* Build configuration list for PBXNativeTarget "LCFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D0961B20EDD87F00DDC673 /* Debug */,
+				A8D0961C20EDD87F00DDC673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D0961D20EDD87F00DDC673 /* Build configuration list for PBXNativeTarget "LCFootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D0961E20EDD87F00DDC673 /* Debug */,
+				A8D0961F20EDD87F00DDC673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D0962020EDD87F00DDC673 /* Build configuration list for PBXNativeTarget "LCFootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D0962120EDD87F00DDC673 /* Debug */,
+				A8D0962220EDD87F00DDC673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D095E620EDD87C00DDC673 /* Project object */;
+}

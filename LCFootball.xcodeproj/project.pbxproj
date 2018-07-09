@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		533DC8A72416AC72948C71A8 /* Pods_LCFootball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D845F3893776BE3167BE56 /* Pods_LCFootball.framework */; };
 		A8624E2020EEEE5800A1FC45 /* LCRankingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8624E1E20EEEE5800A1FC45 /* LCRankingCell.m */; };
 		A8624E2120EEEE5800A1FC45 /* LCRankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8624E1F20EEEE5800A1FC45 /* LCRankingCell.xib */; };
+		A8A3EB4E20F3505D00946933 /* YHLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB4A20F3505D00946933 /* YHLoopScrollView.m */; };
+		A8A3EB4F20F3505D00946933 /* LCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB4D20F3505D00946933 /* LCScrollView.m */; };
+		A8A3EB5720F35A9800946933 /* CycleImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A3EB5220F35A9700946933 /* CycleImageViewCell.xib */; };
+		A8A3EB5820F35A9800946933 /* CycleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB5320F35A9700946933 /* CycleImageView.m */; };
+		A8A3EB5920F35A9800946933 /* CycleImageViewPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB5420F35A9700946933 /* CycleImageViewPageControl.m */; };
+		A8A3EB5A20F35A9800946933 /* CycleImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB5520F35A9700946933 /* CycleImageViewCell.m */; };
+		A8A3EB6120F35BCB00946933 /* LCCNewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB5F20F35BCB00946933 /* LCCNewTableViewCell.m */; };
+		A8A3EB6220F35BCB00946933 /* LCCNewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A3EB6020F35BCB00946933 /* LCCNewTableViewCell.xib */; };
+		A8A3EB6620F35F9F00946933 /* CTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A3EB6420F35F9F00946933 /* CTWebViewController.m */; };
 		A8A67C6320EE296C0026CF25 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C6220EE296C0026CF25 /* UIColor+HexColor.m */; };
 		A8A67C8020EE36BB0026CF25 /* OrderModeTabArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C7F20EE36BB0026CF25 /* OrderModeTabArrowView.m */; };
 		A8A67C8320EE385C0026CF25 /* OrderModeTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C8120EE385C0026CF25 /* OrderModeTabView.m */; };
 		A8A67C8720EE43AD0026CF25 /* LCWorldCupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A67C8520EE43AD0026CF25 /* LCWorldCupCell.m */; };
 		A8A67C8820EE43AD0026CF25 /* LCWorldCupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8A67C8620EE43AD0026CF25 /* LCWorldCupCell.xib */; };
 		A8D095F320EDD87C00DDC673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D095F220EDD87C00DDC673 /* AppDelegate.m */; };
-
 		A8D095F920EDD87C00DDC673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D095F720EDD87C00DDC673 /* Main.storyboard */; };
 		A8D095FB20EDD87E00DDC673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D095FA20EDD87E00DDC673 /* Assets.xcassets */; };
 		A8D095FE20EDD87E00DDC673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D095FC20EDD87E00DDC673 /* LaunchScreen.storyboard */; };
@@ -31,7 +38,6 @@
 		A8D0963220EDE2A500DDC673 /* LCRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963120EDE2A500DDC673 /* LCRankingViewController.m */; };
 		A8D0963520EDE2E300DDC673 /* LCShooterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963420EDE2E300DDC673 /* LCShooterListViewController.m */; };
 		A8D0963820EDE31800DDC673 /* LCNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D0963720EDE31800DDC673 /* LCNewsViewController.m */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,22 @@
 		A8624E1D20EEEE5800A1FC45 /* LCRankingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCRankingCell.h; sourceTree = "<group>"; };
 		A8624E1E20EEEE5800A1FC45 /* LCRankingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCRankingCell.m; sourceTree = "<group>"; };
 		A8624E1F20EEEE5800A1FC45 /* LCRankingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCRankingCell.xib; sourceTree = "<group>"; };
+		A8A3EB4A20F3505D00946933 /* YHLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHLoopScrollView.m; sourceTree = "<group>"; };
+		A8A3EB4B20F3505D00946933 /* YHLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHLoopScrollView.h; sourceTree = "<group>"; };
+		A8A3EB4C20F3505D00946933 /* LCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCScrollView.h; sourceTree = "<group>"; };
+		A8A3EB4D20F3505D00946933 /* LCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCScrollView.m; sourceTree = "<group>"; };
+		A8A3EB5020F35A9700946933 /* CycleImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageViewCell.h; sourceTree = "<group>"; };
+		A8A3EB5120F35A9700946933 /* CycleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageView.h; sourceTree = "<group>"; };
+		A8A3EB5220F35A9700946933 /* CycleImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleImageViewCell.xib; sourceTree = "<group>"; };
+		A8A3EB5320F35A9700946933 /* CycleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleImageView.m; sourceTree = "<group>"; };
+		A8A3EB5420F35A9700946933 /* CycleImageViewPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleImageViewPageControl.m; sourceTree = "<group>"; };
+		A8A3EB5520F35A9700946933 /* CycleImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleImageViewCell.m; sourceTree = "<group>"; };
+		A8A3EB5620F35A9800946933 /* CycleImageViewPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageViewPageControl.h; sourceTree = "<group>"; };
+		A8A3EB5E20F35BCB00946933 /* LCCNewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCCNewTableViewCell.h; sourceTree = "<group>"; };
+		A8A3EB5F20F35BCB00946933 /* LCCNewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCCNewTableViewCell.m; sourceTree = "<group>"; };
+		A8A3EB6020F35BCB00946933 /* LCCNewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LCCNewTableViewCell.xib; sourceTree = "<group>"; };
+		A8A3EB6420F35F9F00946933 /* CTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTWebViewController.m; sourceTree = "<group>"; };
+		A8A3EB6520F35F9F00946933 /* CTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTWebViewController.h; sourceTree = "<group>"; };
 		A8A67C6120EE296C0026CF25 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
 		A8A67C6220EE296C0026CF25 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
 		A8A67C6420EE29910026CF25 /* LCFootball.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCFootball.pch; sourceTree = "<group>"; };
@@ -105,7 +127,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				533DC8A72416AC72948C71A8 /* Pods_LCFootball.framework in Frameworks */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +162,42 @@
 				AFE6C81D985A6DEDC3E45A32 /* Pods-LCFootball.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8A3EB4820F3503C00946933 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				A8A3EB6320F35F9400946933 /* CTWebViewController */,
+				A8A3EB4920F3504700946933 /* Cycle */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		A8A3EB4920F3504700946933 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				A8A3EB5120F35A9700946933 /* CycleImageView.h */,
+				A8A3EB5320F35A9700946933 /* CycleImageView.m */,
+				A8A3EB5020F35A9700946933 /* CycleImageViewCell.h */,
+				A8A3EB5520F35A9700946933 /* CycleImageViewCell.m */,
+				A8A3EB5220F35A9700946933 /* CycleImageViewCell.xib */,
+				A8A3EB5620F35A9800946933 /* CycleImageViewPageControl.h */,
+				A8A3EB5420F35A9700946933 /* CycleImageViewPageControl.m */,
+				A8A3EB4C20F3505D00946933 /* LCScrollView.h */,
+				A8A3EB4D20F3505D00946933 /* LCScrollView.m */,
+				A8A3EB4B20F3505D00946933 /* YHLoopScrollView.h */,
+				A8A3EB4A20F3505D00946933 /* YHLoopScrollView.m */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		A8A3EB6320F35F9400946933 /* CTWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8A3EB6520F35F9F00946933 /* CTWebViewController.h */,
+				A8A3EB6420F35F9F00946933 /* CTWebViewController.m */,
+			);
+			path = CTWebViewController;
 			sourceTree = "<group>";
 		};
 		A8A67C6020EE295E0026CF25 /* SystemCategory */ = {
@@ -225,6 +282,9 @@
 		A8A67C6D20EE2C060026CF25 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A8A3EB5E20F35BCB00946933 /* LCCNewTableViewCell.h */,
+				A8A3EB5F20F35BCB00946933 /* LCCNewTableViewCell.m */,
+				A8A3EB6020F35BCB00946933 /* LCCNewTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,7 +432,6 @@
 				A8D095EF20EDD87C00DDC673 /* Products */,
 				A726867E627F44752A74A79C /* Pods */,
 				3A3CBEA9E3C6EA23940CB71E /* Frameworks */,
-
 			);
 			sourceTree = "<group>";
 		};
@@ -389,6 +448,7 @@
 		A8D095F020EDD87C00DDC673 /* LCFootball */ = {
 			isa = PBXGroup;
 			children = (
+				A8A3EB4820F3503C00946933 /* 3rd */,
 				A8A67C6520EE2A940026CF25 /* SystemConfig */,
 				A8A67C6020EE295E0026CF25 /* SystemCategory */,
 				A8D0962320EDE14F00DDC673 /* Module */,
@@ -446,7 +506,6 @@
 				A8D095EB20EDD87C00DDC673 /* Frameworks */,
 				A8D095EC20EDD87C00DDC673 /* Resources */,
 				7B3822ABA48CB6593302633D /* [CP] Embed Pods Frameworks */,
-
 			);
 			buildRules = (
 			);
@@ -540,12 +599,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A3EB6220F35BCB00946933 /* LCCNewTableViewCell.xib in Resources */,
 				A8D095FE20EDD87E00DDC673 /* LaunchScreen.storyboard in Resources */,
 				A8D095FB20EDD87E00DDC673 /* Assets.xcassets in Resources */,
 				A8A67C8820EE43AD0026CF25 /* LCWorldCupCell.xib in Resources */,
 				A8D095F920EDD87C00DDC673 /* Main.storyboard in Resources */,
 				A8624E2120EEEE5800A1FC45 /* LCRankingCell.xib in Resources */,
-
+				A8A3EB5720F35A9800946933 /* CycleImageViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,18 +689,25 @@
 			files = (
 				A8D0962C20EDE20400DDC673 /* LCNavigationController.m in Sources */,
 				A8D0963820EDE31800DDC673 /* LCNewsViewController.m in Sources */,
+				A8A3EB5A20F35A9800946933 /* CycleImageViewCell.m in Sources */,
+				A8A3EB6120F35BCB00946933 /* LCCNewTableViewCell.m in Sources */,
+				A8A3EB4F20F3505D00946933 /* LCScrollView.m in Sources */,
 				A8D0962B20EDE20400DDC673 /* LCTabBarController.m in Sources */,
 				A8A67C8720EE43AD0026CF25 /* LCWorldCupCell.m in Sources */,
 				A8D0962F20EDE26200DDC673 /* LCWorldCupViewController.m in Sources */,
+				A8A3EB5820F35A9800946933 /* CycleImageView.m in Sources */,
 				A8D0963220EDE2A500DDC673 /* LCRankingViewController.m in Sources */,
 				A8A67C6320EE296C0026CF25 /* UIColor+HexColor.m in Sources */,
 				A8624E2020EEEE5800A1FC45 /* LCRankingCell.m in Sources */,
 				A8A67C8020EE36BB0026CF25 /* OrderModeTabArrowView.m in Sources */,
 				A8D0960120EDD87E00DDC673 /* main.m in Sources */,
+				A8A3EB6620F35F9F00946933 /* CTWebViewController.m in Sources */,
 				A8A67C8320EE385C0026CF25 /* OrderModeTabView.m in Sources */,
 				A8D0963520EDE2E300DDC673 /* LCShooterListViewController.m in Sources */,
 				A8D0962620EDE1D000DDC673 /* LCBaseViewController.m in Sources */,
 				A8D095F320EDD87C00DDC673 /* AppDelegate.m in Sources */,
+				A8A3EB5920F35A9800946933 /* CycleImageViewPageControl.m in Sources */,
+				A8A3EB4E20F3505D00946933 /* YHLoopScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,7 +882,6 @@
 				GCC_PREFIX_HEADER = /Users/deirman/Desktop/LCFootball/LCFootball/LCFootball.pch;
 				INFOPLIST_FILE = LCFootball/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
